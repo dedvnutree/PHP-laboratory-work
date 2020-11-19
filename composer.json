@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
+  "name": "urfu/thachuk",
+=======
   "name": "urfu/Tkachuk",
+>>>>>>> 8b71775ef4f3e54e46ac07ba31e6e9b0c80e0f0d
   "type": "project",
   "description": "LabWork",
   "license": "MIT",
