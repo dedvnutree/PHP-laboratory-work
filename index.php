@@ -1,6 +1,6 @@
 <?php
 
-#require 'vendor/autoload.php';
+require 'vendor/autoload.php';
 include 'geometry.php';
 
 $T1 = new Point(1,10);
