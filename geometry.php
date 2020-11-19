@@ -1,8 +1,8 @@
 <?php
 
 class Point{
-    public readonly $X;
-    public readonly $Y;
+    public $X;
+    public $Y;
     function __construct($x, $y){
         $this -> X = $x;
         $this -> Y = $y;
@@ -18,8 +18,8 @@ class Point{
 }
 
 class Vector{
-    public readonly $X;
-    public readonly $Y;
+    public $X;
+    public $Y;
     function __construct($x, $y){
         $this -> X = $x;
         $this -> Y = $y;
@@ -33,8 +33,7 @@ class Vector{
         return $this -> X == 0 and $this -> Y ==0;
     }
 
-
+    function PerpendicularWith(Vector $vector2 ){
+        return $this -> X * $vector2 -> X + $this -> Y * $vector2 -> Y == 0;
+    }
 }
-
-$test = new Point(1,2);
-var_dump( $test);
